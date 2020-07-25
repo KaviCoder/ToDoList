@@ -126,7 +126,7 @@ extension TodoViewController
             textField.placeholder = "Create new item"
             
             myTextField = textField
-            print(myTextField)
+            print(myTextField!)
         }
         
         
@@ -135,7 +135,7 @@ extension TodoViewController
     }
       func loadItems()
       {
-       var request : NSFetchRequest<Category> =  Category.fetchRequest()
+       let request : NSFetchRequest<Category> =  Category.fetchRequest()
        var count = 0
        do
        {
