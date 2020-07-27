@@ -220,14 +220,14 @@ extension DetailToDoViewController : UISearchBarDelegate
 //    }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        print (searchBar.text)
+        print (searchBar.text!)
         
         if searchBar.text?.count != 0
         {
               SearchBar?.endEditing(true)
                    SearchBar?.resignFirstResponder()
             
-             var request : NSFetchRequest<Item> =  Item.fetchRequest()
+             let request : NSFetchRequest<Item> =  Item.fetchRequest()
             
           
              request.predicate = NSPredicate(format: " title CONTAINS[cd] %@" , searchBar.text!   )
