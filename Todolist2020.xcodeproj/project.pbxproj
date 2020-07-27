@@ -14,7 +14,6 @@
 		6FB5801924B4230B00A7AB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5801824B4230B00A7AB0B /* Assets.xcassets */; };
 		6FB5801C24B4230B00A7AB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5801A24B4230B00A7AB0B /* LaunchScreen.storyboard */; };
 		6FB5802624B4BEE200A7AB0B /* DetailToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5802524B4BEE200A7AB0B /* DetailToDoViewController.swift */; };
-		6FB5802D24B764C000A7AB0B /* AddFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5802C24B764C000A7AB0B /* AddFunctionality.swift */; };
 		6FB5803024BE618500A7AB0B /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5802E24BE618500A7AB0B /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		6FB5801B24B4230B00A7AB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FB5801D24B4230B00A7AB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FB5802524B4BEE200A7AB0B /* DetailToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToDoViewController.swift; sourceTree = "<group>"; };
-		6FB5802C24B764C000A7AB0B /* AddFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFunctionality.swift; sourceTree = "<group>"; };
 		6FB5802F24BE618500A7AB0B /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		6FB5805424C6101400A7AB0B /* Todolist2020.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Todolist2020.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +79,6 @@
 			children = (
 				6FB5801324B422FF00A7AB0B /* TodoViewController.swift */,
 				6FB5802524B4BEE200A7AB0B /* DetailToDoViewController.swift */,
-				6FB5802C24B764C000A7AB0B /* AddFunctionality.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,7 +172,6 @@
 			files = (
 				6FB5801424B422FF00A7AB0B /* TodoViewController.swift in Sources */,
 				6FB5803024BE618500A7AB0B /* DataModel.xcdatamodeld in Sources */,
-				6FB5802D24B764C000A7AB0B /* AddFunctionality.swift in Sources */,
 				6FB5801024B422FF00A7AB0B /* AppDelegate.swift in Sources */,
 				6FB5801224B422FF00A7AB0B /* SceneDelegate.swift in Sources */,
 				6FB5802624B4BEE200A7AB0B /* DetailToDoViewController.swift in Sources */,

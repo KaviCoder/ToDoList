@@ -26,6 +26,7 @@ class DetailToDoViewController: UITableViewController {
         
         //load the items initially for all which are child of the selectedParent
         loadItems()
+        navigationItem.title = selectedParent?.name
     }
     }
     
@@ -38,7 +39,7 @@ class DetailToDoViewController: UITableViewController {
            SearchBar.delegate = self
            SearchBar.placeholder = "Search the items"
           
-        
+       
         
         
         
